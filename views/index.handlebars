@@ -1,0 +1,25 @@
+<h1>Burgers</h1>
+
+<div class="burgerimg">
+    <img src="/assets/img/Bibimbap-homemade-burgers.jpg" alt="burger">
+</div>
+
+<ul>
+    {{#each burgers}}
+
+    {{#if true}}
+    {{> burgers/burger-block devoured=devoured}}
+    {{/if}}
+
+    {{/each}}
+</ul>
+
+<h2>Add a burger</h2>
+<form class="create-form">
+
+    <div class="form-group">
+        <input type="text" id="burger" name="burger_name" placeholder="enter a burger">
+    </div>
+
+    <button type="submit">Add Burger</button>
+</form>

@@ -1,0 +1,31 @@
+{
+  "name": "burger",
+  "version": "1.0.0",
+  "description": "node, mysql, express, handlebars",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mattsainson/burger.git"
+  },
+  "keywords": [
+    "node",
+    "mysql",
+    "express",
+    "handlebars",
+    "orm"
+  ],
+  "author": "matt sainson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mattsainson/burger/issues"
+  },
+  "homepage": "https://github.com/mattsainson/burger#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.2",
+    "mysql": "^2.17.0"
+  }
+}
